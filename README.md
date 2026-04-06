@@ -106,7 +106,7 @@ Para su verificación ver video Cuadrado.
 
 1. Que ocurre cuando ambas ruedas tienen la misma velocidad? 
 
-R: Cuando ambas ruedas tienen la misma velocidad, el robot gira en una línea recta uniforme de manera constante.
+R: Cuando ambas ruedas tienen la misma velocidad, el robot avanza en una línea recta uniforme de manera constante.
 
 2. Como cambia la trayectoria cuando las velocidades son diferentes? 
 
