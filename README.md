@@ -7,6 +7,9 @@ ICI4150-2
     - Marcos Cádiz
     - Andrés García
     - Amaro Fibla
+ 
+Aquí el link de la carpeta de Google Drive para la visualización de los videos y captura mencionados en el informe: 
+https://drive.google.com/drive/folders/1Yq228trb94V2qWR-c_twKHzJNdCFzuEz?usp=sharing
 
 # Descripción del laboratorio
 
