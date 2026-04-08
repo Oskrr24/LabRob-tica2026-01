@@ -1,4 +1,3 @@
-# Laboratorio 1 Robótica y Sist. Autónomos
 ICI4150-2
 
 - Integrantes:
@@ -7,9 +6,18 @@ ICI4150-2
     - Marcos Cádiz
     - Andrés García
     - Amaro Fibla
- 
-Aquí el link de la carpeta de Google Drive para la visualización de los videos y captura mencionados en el informe: 
+
+Aquí el link de la carpeta de Google Drive para la visualización de los videos y captura mencionados en el informe:
 https://drive.google.com/drive/folders/1Yq228trb94V2qWR-c_twKHzJNdCFzuEz?usp=sharing
+
+# Contenido:
+
+1. [Descripción del laboratorio](https://www.notion.so/Laboratorio-1-Rob-tica-y-Sist-Aut-nomos-337781d6c2de80549d3dc837ae1329a6?pvs=21)
+2. [Como ejecutar la simulación en Webots](https://www.notion.so/Laboratorio-1-Rob-tica-y-Sist-Aut-nomos-337781d6c2de80549d3dc837ae1329a6?pvs=21)
+3. [Resultados obtenidos: Tareas](https://www.notion.so/Laboratorio-1-Rob-tica-y-Sist-Aut-nomos-337781d6c2de80549d3dc837ae1329a6?pvs=21)
+4. [Extensión](https://www.notion.so/Laboratorio-1-Rob-tica-y-Sist-Aut-nomos-337781d6c2de80549d3dc837ae1329a6?pvs=21)
+5. [Desafío](https://www.notion.so/Laboratorio-1-Rob-tica-y-Sist-Aut-nomos-337781d6c2de80549d3dc837ae1329a6?pvs=21)
+6. [Preguntas de análisis](https://www.notion.so/Laboratorio-1-Rob-tica-y-Sist-Aut-nomos-337781d6c2de80549d3dc837ae1329a6?pvs=21)
 
 # Descripción del laboratorio
 
@@ -17,7 +25,7 @@ El objetivo de este laboratorio fue comprender el comportamiento cinemático de 
 
 Durante este laboratorio se analizarán preguntas de análisis y el robot se verá afectado a distintas pruebas propuestas por el mismo laboratorio, en donde analizaremos el movimiento y describiremos su trayectoria.
 
-# Como ejecutar la simulación en Webots
+# Cómo ejecutar la simulación en Webots
 
 Para ejecutar esta simulación, es necesario tener instalado Python en el dispositivo.
 
@@ -35,6 +43,8 @@ Para ejecutar esta simulación, es necesario tener instalado Python en el dispos
 
 # Resultados obtenidos: Tareas
 
+Primero identificaremos los motores en el código base en C, para ello ver la captura IdentificacionMotores, vamos a seguir la línea para hacer el código controlador en C.
+
 A continuación, se describen los comportamientos observados según la configuración de los actuadores.
 
 ### Movimiento recto: Vl = Vr
@@ -49,7 +59,7 @@ Para este segundo experimento, la rueda izquierda figuraba una velocidad mayor q
 
 Para este tercer y último experimento,  la rueda izquierda figura con una velocidad positiva de 2.0 mientras que la rueda derecha con velocidad de -2.0, aquí podemos observar que el robot gira sobre su propio eje central sin desplazarse. Ver video “Rotacion” para su comprobación.
 
-## Extensión
+# Extensión
 
 Para la extensión, se pide comparar la trayectoria ideal (una línea recta en este caso) con una trayectoria con variaciones (para este ejemplo, una serie de curvas).
 
@@ -72,7 +82,7 @@ Para la extensión, se pide comparar la trayectoria ideal (una línea recta en e
     Para su verificación ver video ExtensionS.
     
 
-## Desafío
+# Desafío
 
 ### Línea Recta
 
@@ -102,11 +112,11 @@ Para lograr el resultado se requiere un control preciso del tiempo de ejecución
 
 Para su verificación ver video Cuadrado.
 
-## Preguntas de análisis
+# Preguntas de análisis
 
 1. Que ocurre cuando ambas ruedas tienen la misma velocidad? 
 
-R: Cuando ambas ruedas tienen la misma velocidad, el robot avanza en una línea recta uniforme de manera constante.
+R: Cuando ambas ruedas tienen la misma velocidad, el robot gira en una línea recta uniforme de manera constante.
 
 2. Como cambia la trayectoria cuando las velocidades son diferentes? 
 
